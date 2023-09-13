@@ -1,16 +1,14 @@
-# Use the specified Python image
+# syntax=docker/dockerfile:1
 FROM python:3.11.4-bookworm
 
-# Update pip
+COPY requirements.txt requirements.txt
+
 RUN pip install --upgrade pip
 
-# Install required packages
-COPY requirements.txt /problem5/
-WORKDIR /problem5
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install -r requirements.txt
 
-# Expose Jupyter Lab's port
+WORKDIR /problem5
+
 EXPOSE 8888
 
-# Run Jupyter Lab
-CMD ["jupyter", "lab", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root"]
