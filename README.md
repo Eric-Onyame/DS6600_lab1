@@ -1,13 +1,19 @@
 # DS6600_lab1
 
-##Why I chose the MIT License for this project
+This project is licensed under the GNU General Public License v3.0.
 
-I have selected the MIT License due to some specific reasons. The MIT License is widely regarded as one of the most permissive and straightforward licenses currently in existence. The license grants individuals the freedom to utilize, alter, disseminate, sublicense, and even engage in commercial transactions using the code. This fosters cooperation and the unrestricted dissemination of ideas. The license also has excellent compatibility with other licenses, hence facilitating seamless integration of my work into the projects of other developers with no worries regarding legal complexities. Furthermore, the MIT License offers a degree of safeguarding against the inappropriate use of my code. Although it grants extensive liberties, the code specifically disclaims any warranty, safeguarding me against legal liabilities of my work. Finally, the MIT License is widely acknowledged and comprehended among the developer community, hence potentially enticing a greater number of contributors to the project. 
+Why I choose This License?
+The GNU GPLv3 license aligns with my intention of promoting free usage and distribution of this code while retaining the same freedoms in derivative works. This license will therefore allow others to use, modify, and distribute the code, both in commercial and non-commercial applications, as long as they adhere to the same licensing terms.
 
+Key aspects of GPLv3 that influenced my choice for this project:
 
-##What if No License?
+Freedom to Use: Allows both commercial and non-commercial usage.
+Freedom to Modify: Provides rights to modify and create derivative works.
+Copyleft: Ensures that derivative works are also open and free by mandating they be released under the same license terms.
 
-Not providing a license will have some consequences. It can first default the project to full copyright law which implies that others cannot reproduce, distribute or create derivative works from it without explicit permission. It can also lead to some legal uncertainties where other developers will be unsure about the legal consequences of using or contributing to the project. Overall, not having a license creates an environment of uncertainty and legal risk which potentially discourages community involvement, collaboration, and the open exchange of ideas.
+What If There Was No License?
+
+The absence of a license in a public repository implies that anybody may access your code, but they are not granted express authorizations to utilize, alter, or distribute it. Fundamentally, in the absence of a license, the prevailing copyright rules come into effect, so imposing limitations on the liberties typically granted to the public by open source projects. Therefore, not adding a license would have significantly limited how others can interact with this repository.
 
 
 ## .gitignore
